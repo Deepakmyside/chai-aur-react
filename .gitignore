@@ -1,1 +1,25 @@
-node_modules/
+# Ignore node_modules everywhere
+**/node_modules/
+
+# Ignore build/dist folders
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# VS Code config (optional, personal)
+.vscode/
+
+# Env files
+.env
+.env.local
+
+# Optional: Ignore lock files if needed
+package-lock.json
+yarn.lock
+
