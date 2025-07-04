@@ -18,6 +18,7 @@ function App() {
     //  counter = counter + 1
     const addValue = () => {
      if (counter <20) { setCounter(counter + 1)
+      setCounter(prevCounter=> prevCounter + 1)
       
      }else{ setCounter(counter + 0)
      
@@ -31,7 +32,7 @@ function App() {
      setCounter(counter - 0 )
      }
     }
-
+    
   return (
     <>
 
